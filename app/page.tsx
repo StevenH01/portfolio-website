@@ -1,5 +1,5 @@
 import Image from "next/image";
-import TabNav from "./pages/TabNav";
+import TabNav from "./component/content/TabNav";
 
 export default function Home() {
   return (
