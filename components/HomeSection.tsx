@@ -24,8 +24,8 @@ const HomeSection = () => {
             <span className="font-semibold text-teal-600">
               Software Engineer{" "}
             </span>
-            based in Sacramento, CA. I am currently a student at California State University-Sacramento.
-            I am currently an Engineer intern and Edge and am working on personal projects to gain more insight on
+            based in Sacramento, CA. I am currently studying Computer Science at California State University-Sacramento.
+            Currently I am an Engineer intern at Edge and am working on personal projects to gain more insight on
             software, AI, and web developements skills. 
           </p>
           <Link
