@@ -20,13 +20,11 @@ const HomeSection = () => {
         <div className="md:mt-2 md:w-3/5">
           <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Steven!</h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
-            I&#39;m a{" "}
+            I&#39;m an aspiring{" "}
             <span className="font-semibold text-teal-600">
               Software Engineer{" "}
             </span>
             based in Sacramento, CA. I am currently studying Computer Science at California State University-Sacramento.
-            Currently I am an Engineer intern at Edge and am working on personal projects to gain more insight on
-            software, AI, and web developements skills. 
           </p>
           <Link
             to="projects"
