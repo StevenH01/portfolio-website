@@ -5,7 +5,8 @@ import { Link } from "react-scroll/modules"
 import { usePathname } from "next/navigation"
 import { useTheme } from "next-themes"
 import { RiMoonFill, RiSunLine } from "react-icons/ri"
-import { IoMdMenu, IoMdClose } from "react-icons/io"
+import { IoMdMenu, IoMdClose,IoLogoGithub } from "react-icons/io"
+import { IoLogoLinkedin } from "react-icons/io5";
 
 interface NavItem {
   label: string
