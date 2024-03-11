@@ -7,6 +7,7 @@ import { useTheme } from "next-themes"
 import { RiMoonFill, RiSunLine } from "react-icons/ri"
 import { IoMdMenu, IoMdClose,IoLogoGithub } from "react-icons/io"
 import { IoLogoLinkedin } from "react-icons/io5";
+// rafce to create auto generated function
 
 interface NavItem {
   label: string
