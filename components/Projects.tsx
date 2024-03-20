@@ -23,7 +23,7 @@ const projects = [
     name: "The Lamby Shop",
     description: "Built an E-commerce website for a client (work in progress)",
     image: "/indev.png",
-    github: "https://github.com/StevenH01/ai-projects/tree/main/web/personal-gpt",
+    github: "https://github.com/StevenH01/The-Lamby-Shop",
     link: ""
   }
 ]
