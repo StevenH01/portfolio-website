@@ -23,7 +23,7 @@ const skills = [
 const About = () => {
   return (
     <section id="about">
-      <div className="my-12 pb-12 md:pt-16 md:pb-16">
+      <div className="my-8 pb-8 md:pt-16 md:pb-16">
         <h1 className="text-center font-bold text-4xl">
           About Me
           <hr className="w-6 h-1 mx-auto my-4 bg-teal-400 border-0 rounded"></hr>
@@ -40,9 +40,9 @@ const About = () => {
             </p>
             <br />
             <p>
-              I am currently in my senior year at California State University, 
-              Sacramento, pursuing a BS in Computer Science. I am actively seeking 
-              entry-level or internship opportunities to kickstart my career
+              I am currently a new graduate from California State University, 
+              Sacramento, I have obtained a  BS in Computer Science. I am actively seeking 
+              entry-level or new grad opportunities to kickstart my career
                in the tech industry.
             </p>
             <br />

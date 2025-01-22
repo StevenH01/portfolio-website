@@ -1,7 +1,7 @@
 "use client"
 import "./globals.css"
-import Navbar from "@/components/NavBar"
-import Footer from "@/components/Footer"
+import Navbar from "@/app/components/NavBar"
+import Footer from "@/app/components/Footer"
 import { ThemeProvider } from "next-themes"
 import Head from "./Head"
 

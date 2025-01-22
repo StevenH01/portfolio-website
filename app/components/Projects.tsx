@@ -6,26 +6,19 @@ import SlideUp from './SlideUp';
 
 const projects = [
   { 
-    name: "Game of Pong",
-    description: "This is the basic game of pong where two players can play against one another. Used this to teach myself concepts of OOP.",
-    image: "/pong.png",
-    github: "https://github.com/StevenH01/JavaGames/tree/main/Pong",
-    link: ""
-  },
-  { 
-    name: "Personal ChatGPT Clone",
-    description: "Personalized ChatGPT clone using OpenAi api",
-    image: "/gptclone.png",
-    github: "https://github.com/StevenH01/ai-projects/tree/main/web/personal-gpt",
-    link: ""
+    name: "Prosper Autowerks",
+    description: "Website for a local car shop, allows easier communication between customer and owner.",
+    image: "/prosp.png",
+    github: "https://github.com/StevenH01/prosper-auto",
+    link: "https://www.prosperautowerks.com/"
   },
   { 
     name: "The Lamby Shop",
-    description: "Built an E-commerce website for a client (work in progress)",
-    image: "/indev.png",
+    description: "Built an E-commerce website for a client to sell crocheted items by personal stock or request. (deprecated)",
+    image: "/lamb.png",
     github: "https://github.com/StevenH01/The-Lamby-Shop",
-    link: ""
-  }
+    link: "https://thelambyshop.com/"
+  },
 ]
 export const Projects = () => {
   return (
@@ -41,7 +34,7 @@ export const Projects = () => {
             <div key={idx}>
               <SlideUp offset="-300px 0px -300px 0px">
                 <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
-                  <div className="mt-8 md:w-1/2">
+                  <div className="mt-4 md:w-1/2">
                     <Link href={project.link}>
                       <Image
                         src={project.image}
@@ -52,7 +45,7 @@ export const Projects = () => {
                       />
                     </Link>
                   </div>
-                  <div className="mt-12 md:w-1/2">
+                  <div className="mt-4 md:w-1/2">
                     <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
                     <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
                       {project.description}

@@ -1,7 +1,8 @@
 import React from "react";
-import HomeSection from "@/components/HomeSection";
-import About from "@/components/About";
-import { Projects } from "@/components/Projects";
+import HomeSection from "@/app/components/HomeSection";
+import About from "@/app/components/About";
+import { Projects } from "@/app/components/Projects";
+import Hobbies from "./components/Hobbies";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <HomeSection />
       <About />
       <Projects />
+      <Hobbies />
     </main>
   );
 }
