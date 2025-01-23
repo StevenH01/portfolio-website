@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react";
 import HomeSection from "@/app/components/HomeSection";
 import About from "@/app/components/About";

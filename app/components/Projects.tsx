@@ -7,7 +7,7 @@ import SlideUp from './SlideUp';
 const projects = [
   { 
     name: "Prosper Autowerks",
-    description: "Website for a local car shop, allows easier communication between customer and owner.",
+    description: "Website for a local car shop, allows easier communication between customer and owner. If you are in the Sacramento Region, and need tints check them out!",
     image: "/prosp.png",
     github: "https://github.com/StevenH01/prosper-auto",
     link: "https://www.prosperautowerks.com/"
